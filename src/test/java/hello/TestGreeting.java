@@ -8,17 +8,17 @@ public class TestGreeting {
 	@Test
 	public void testGreeter() {
 		Greeter msg = new Greeter();
-		Assert.assertEquals("Hello World!", msg.sayHello());
+		Assert.assertEquals("Hello world!", msg.sayHello());
 	}
 	
 	@Test
 	public void testSomething() {
-		Assert.assertTrue(true);
+		Assert.assertTrue(false);
 	}
 	
 	@Test
 	public void testSomethingElse() {
-		Assert.assertNotEquals("maven", "gradle");
+		Assert.assertEquals("maven", "gradle");
 	}
 	
 
